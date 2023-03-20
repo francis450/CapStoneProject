@@ -1,0 +1,23 @@
+{
+  "name": "capstoneproject",
+  "version": "1.0.0",
+  "description": "Final project for the first module in microverse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francis450/CapStoneProject.git"
+  },
+  "author": "Njoroge Francis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francis450/CapStoneProject/issues"
+  },
+  "homepage": "https://github.com/francis450/CapStoneProject#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "popper": "^1.0.1"
+  }
+}
