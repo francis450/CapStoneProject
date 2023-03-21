@@ -238,7 +238,7 @@ nav {
   display: none;
 }
 
-/* ---------------Speakers Section--------------- */
+/* ---------------fighters Section--------------- */
 .fighters {
   background-color: var(--color-white);
   opacity: 0.9;
@@ -268,7 +268,7 @@ nav {
   margin-top: 2rem;
 }
 
-.speakersContainer {
+.fightersContainer {
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -277,7 +277,7 @@ nav {
   margin-top: 1rem;
 }
 
-.speakerItem {
+.fighterItem {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -285,8 +285,9 @@ nav {
   margin-bottom: 2rem;
 }
 
-.speakerItem img {
+.fighterItem img {
   background-color: var(--color-white);
+  width: 175px;
 }
 
 .profile {
@@ -639,7 +640,7 @@ nav {
     height: 100%;
   }
 
-  .speakersContainer {
+  .fightersContainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-left: 4vw;
