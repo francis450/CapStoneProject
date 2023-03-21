@@ -128,6 +128,97 @@ window.onload = function getData() {
   }
 };
 
+//popup modal
+const bgContainer = document.querySelector('.bgContainer');
+const menu = document.querySelector('.menu');
+
+function popup() {
+  const popupContainer = document.createElement('div');
+  popupContainer.classList.add('popupContainer');
+  popupContainer.style.display = 'block';
+  bgContainer.append(popupContainer);
+
+  const modalBox = document.createElement('div');
+  modalBox.classList.add('modalBox');
+  popupContainer.append(modalBox);
+
+  // Close Modal
+  const closeBtn = document.createElement('img');
+  closeBtn.classList.add('closeBtn');
+  closeBtn.setAttribute('src', './img/close.svg');
+  modalBox.append(closeBtn);
+
+  closeBtn.addEventListener('click', () => {
+    console.log("closed");
+    popupContainer.style.display = 'none';
+  });
+
+  // Create links
+  const ulLink = document.createElement('ul');
+  ulLink.classList.add('ulLink');
+
+  const liLink1 = document.createElement('li');
+  const aLink1 = document.createElement('a');
+  liLink1.classList.add('liLinks');
+  liLink1.classList.add('first');
+  aLink1.setAttribute('href', './index.html');
+  aLink1.textContent = 'Home';
+  aLink1.addEventListener('click', () => {
+    popupContainer.style.display = 'none';
+  });
+  liLink1.append(aLink1);
+  const liLink2 = document.createElement('li');
+  const aLink2 = document.createElement('a');
+  liLink2.classList.add('liLinks');
+  aLink2.textContent = 'About';
+  aLink2.addEventListener('click', () => {
+    aLink2.setAttribute('href', './about.html');
+    popupContainer.style.display = 'none';
+  });
+  liLink2.append(aLink2);
+  const liLink3 = document.createElement('li');
+  const aLink3 = document.createElement('a');
+  liLink3.classList.add('liLinks');
+  aLink3.setAttribute('href', './index.html#program');
+  aLink3.textContent = 'Program';
+  aLink3.addEventListener('click', () => {
+    popupContainer.style.display = 'none';
+  });
+  liLink3.append(aLink3);
+  const liLink4 = document.createElement('li');
+  const aLink4 = document.createElement('a');
+  liLink4.classList.add('liLinks');
+  aLink4.setAttribute('href', './index.html#fighters');
+  aLink4.textContent = 'Fighters';
+  aLink4.addEventListener('click', () => {
+    popupContainer.style.display = 'none';
+  });
+  liLink4.append(aLink4);
+  const liLink5 = document.createElement('li');
+  const aLink5 = document.createElement('a');
+  liLink5.classList.add('liLinks');
+  aLink5.setAttribute('href', './about.html#partner');
+  aLink5.textContent = 'Partner';
+  aLink5.addEventListener('click', () => {
+    popupContainer.style.display = 'none';
+  });
+  liLink5.append(aLink5);
+  const liLink6 = document.createElement('li');
+  const aLink6 = document.createElement('a');
+  liLink6.classList.add('liLinks');
+  aLink6.setAttribute('href', './about.html#pastEvent');
+  aLink6.textContent = 'Event';
+  aLink6.addEventListener('click', () => {
+    popupContainer.style.display = 'none';
+  });
+  liLink6.append(aLink6);
+  ulLink.append(liLink1, liLink2, liLink3, liLink4, liLink5, liLink6);
+  modalBox.append(ulLink);
+}
+
+menu.addEventListener('click', popup);
+
+
 // Reload during screen resize
 window.onresize = function checkWindow() {
   window.location.reload();
