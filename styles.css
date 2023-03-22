@@ -558,6 +558,36 @@ nav {
 }
 
 @media (min-width: 768px) {
+  .logoHistory h2 {
+    font-size: 2rem;
+  }
+
+  .logoHistory .indicator {
+    width: 2.5rem;
+  }
+
+  .logoHistoryMobile {
+    display: none;
+  }
+
+  .logoHistoryDesktop {
+    display: block;
+    color: var(--color-black);
+    padding: 0 3rem;
+    opacity: 0.7;
+    margin-bottom: 3rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .boxLogo {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: cover;
+  }
+
   .titleAbout {
     margin-top: 7rem;
   }
