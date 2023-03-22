@@ -149,7 +149,6 @@ function popup() {
   modalBox.append(closeBtn);
 
   closeBtn.addEventListener('click', () => {
-    console.log("closed");
     popupContainer.style.display = 'none';
   });
 
