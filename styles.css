@@ -351,6 +351,83 @@ nav {
   display: none;
 }
 
+.partnerMobile {
+  display: block;
+  background-color: #2e3139;
+  color: var(--color-white);
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  filter: grayscale(1px);
+  height: 100%;
+  backdrop-filter: blur(0.5rem);
+}
+
+.partnerMobile h2 {
+  margin: 1.2rem 0.5rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.05rem;
+  color: var(--color-lightgrey);
+}
+
+.partnerMobile .indicator {
+  width: 1.5rem;
+  margin-bottom: 1rem;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.8;
+}
+
+.partnerMobile ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.partnerMobile li {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: var(--color-lightgrey);
+  margin-top: 0.75rem;
+  margin-right: 1.5rem;
+}
+
+.lightFooter img {
+  max-width: 40%;
+  max-height: 40%;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+
+.partnerMobile ul img {
+  margin-right: 0.25rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.darkFooter {
+  display: none;
+}
+
+.lightFooter {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  padding: 1rem 0;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.lightFooter p {
+  font-size: 0.75rem;
+}
+
 /* ---------------Footer Section--------------- */
 .mobileFooter {
   display: flex;
@@ -633,6 +710,11 @@ nav {
   box-shadow: inset -100vw -100vh #ec534280;
 }
 
+.pastEvent li:hover {
+  background-size: 110%;
+  box-shadow: none;
+  transition: all 350ms ease-out;
+}
 
 @media (min-width: 768px) {
   .pastEvent h2 {
@@ -1012,5 +1094,23 @@ nav {
     overflow: hidden;
     height: 55px;
     min-width: 200px;
+  }
+
+  .partnerMobile {
+    display: none;
+  }
+
+  .darkFooter {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    padding: 1rem 0;
+    background-color: var(--color-black);
+    color: var(--color-lightgrey);
+  }
+
+  .lightFooter {
+    display: none;
   }
 }
