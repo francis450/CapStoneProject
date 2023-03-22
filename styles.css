@@ -506,6 +506,41 @@ nav {
 }
 
 @media (min-width: 768px) {
+  .titleAbout {
+    margin-top: 7rem;
+  }
+
+  .titleAbout h2 {
+    font-size: 2.5rem;
+  }
+
+  .titleAbout h1 {
+    font-size: 3.5rem;
+  }
+
+  .subtitleAbout {
+    width: 60%;
+    line-height: 1.8rem;
+    text-align: center;
+  }
+
+  .specificsAbout {
+    margin-top: 3rem;
+  }
+
+  .specificsAbout p {
+    font-size: 0.75rem;
+    opacity: 0.7;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .specificsAbout a {
+    text-decoration: underline;
+    color: var(--color-black);
+    opacity: 1;
+  }
+
   .bgContainer {
     background-image: url(./img/website-bg.png);
     height: 100vh;
