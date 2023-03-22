@@ -682,8 +682,6 @@ nav {
   }
 
   .boxLogo {
-    max-width: 80%;
-    max-height: 80%;
     object-fit: cover;
   }
 
