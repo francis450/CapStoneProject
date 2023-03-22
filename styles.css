@@ -505,6 +505,58 @@ nav {
   opacity: 1;
 }
 
+.logoHistory {
+  background-color: var(--color-white);
+  opacity: 0.9;
+  filter: grayscale(1px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  color: var(--color-black);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+}
+
+.logoHistory .indicator {
+  width: 1.5rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.8;
+}
+
+.logoHistory h2 {
+  margin-top: 2rem;
+  padding: 0 4rem;
+}
+
+.logoHistoryMobile {
+  color: var(--color-black);
+  padding: 0 3rem;
+  opacity: 0.7;
+  margin-bottom: 3rem;
+}
+
+.logoHistoryDesktop {
+  display: none;
+}
+
+.boxLogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid var(--color-lightgrey);
+  max-width: 50%;
+  max-height: 50%;
+  padding: 1rem;
+  margin-bottom: 4rem;
+}
+
 @media (min-width: 768px) {
   .titleAbout {
     margin-top: 7rem;
