@@ -569,7 +569,7 @@ nav {
   .logoHistoryMobile {
     display: none;
   }
-
+  
   .logoHistoryDesktop {
     display: block;
     color: var(--color-black);
