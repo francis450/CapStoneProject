@@ -403,6 +403,14 @@ nav {
   margin-right: 1rem;
 }
 
+
+.mobileFooter img {
+  max-width: 40%;
+  max-height: 40%;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+
 .partnerMobile ul img {
   margin-right: 0.25rem;
   width: 1.5rem;
@@ -436,13 +444,6 @@ nav {
   padding: 1rem 0;
   margin-left: 2rem;
   margin-right: 2rem;
-}
-
-.mobileFooter img {
-  max-width: 40%;
-  max-height: 40%;
-  object-fit: cover;
-  margin-right: 1rem;
 }
 
 .mobileFooter p {
@@ -515,6 +516,12 @@ nav {
   padding-top: 5rem;
 }
 
+.specificsAbout a {
+  text-decoration: underline;
+  color: var(--color-black);
+  opacity: 1;
+}
+
 .liLinks a:hover {
   opacity: 0.9;
   transform: scale(1.1);
@@ -575,12 +582,6 @@ nav {
   margin-right: 2rem;
 }
 
-.specificsAbout a {
-  text-decoration: underline;
-  color: var(--color-black);
-  opacity: 1;
-}
-
 .logoHistory {
   background-color: var(--color-white);
   opacity: 0.9;
@@ -632,6 +633,7 @@ nav {
   padding: 1rem;
   margin-bottom: 4rem;
 }
+
 .pastEvent {
   border-top: 2px solid var(--color-lightgrey);
   background-color: var(--color-white);
@@ -724,10 +726,27 @@ nav {
     width: 2.5rem;
   }
 
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 4rem;
+  }
+
   .pastEvent ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
+  }
+
+  nav li {
+    list-style-type: none;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 0.25rem;
+    opacity: 0.7;
+    align-self: center;
+    text-decoration: none;
   }
 
   .pastEvent li {
@@ -788,7 +807,6 @@ nav {
     margin-top: 3rem;
   }
 
-  
   footer p {
     margin-left: 8rem;
   }
@@ -800,7 +818,6 @@ nav {
     margin-right: 2rem;
   }
 
-  
   nav li a {
     text-decoration: none;
     color: var(--color-lightgrey);
@@ -836,23 +853,6 @@ nav {
     width: 100vw;
     top: 0;
     z-index: 1;
-  }
-
-  nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    padding-right: 4rem;
-  }
-
-  nav li {
-    list-style-type: none;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    padding: 0.25rem;
-    opacity: 0.7;
-    align-self: center;
-    text-decoration: none;
   }
 
   .header a {

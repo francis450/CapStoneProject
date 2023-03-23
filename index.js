@@ -11,7 +11,7 @@ const fightersObj = {
     'Alex Pereira',
     'Alex Volkanoski',
     'Zhang Weili',
-  ], 
+  ],
   title: [
     'UFC Womens\' Strawweight Champion ',
     '#1 Ranked UFC Middleweight',
@@ -19,7 +19,7 @@ const fightersObj = {
     'UFC Middleweight Champion',
     'UFC Featherweight Champion',
     'UFC Womens\' Strawweight Champion',
-  ], 
+  ],
   description: [
     'Alexa Grasso is a Mexican mixed martial artist who competes in the women\'s flyweight division of the Ultimate Fighting Championship (UFC). She was born on August 9, 1993, in Guadalajara, Jalisco, Mexico.',
     'Israel Mobolaji Odunayo Oluwafemi Temitayo Owolabi Adesanya is a New Zealand professional mixed martial artist, kickboxer, and former boxer with multiple championships in all three disciplines.',
