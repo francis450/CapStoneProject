@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # WORLDS INTERNATIONAL FIGHT WEEK
-![fight-week-Logo]
+<img src='img/desktop-fight-week-screenshot.png'>
 
 ## *Microverse First Capstone Project*
 
