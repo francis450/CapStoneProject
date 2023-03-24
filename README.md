@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # WORLDS INTERNATIONAL FIGHT WEEK
-![fight-week-Logo]
+<img src='img/desktop-fight-week-screenshot.png'>
 
 ## *Microverse First Capstone Project*
 
@@ -24,7 +24,7 @@
 - [x] Communicate technical concepts to other technical people.
 
 ## Project Documentation
-- [x] Here is the loom video [link](https://www.loom.com/share/55f95314ade34700afcdbecec5137d7d)
+- [x] Here is the loom video [link](https://www.loom.com/share/26ac6ebb2ef34864b9418a55351cac8c)
 
 ## Design Mockup 📱 💻 🖥️
 ![Screen Shot 2022-05-30 at 21 04 26](https://user-images.githubusercontent.com/98527559/171028995-c3a99b54-5f1f-42f1-833d-17a8ed6be926.png)
