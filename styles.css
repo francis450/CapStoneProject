@@ -967,9 +967,10 @@ nav {
     flex-direction: column;
     align-items: center;
     margin: 0.25rem 0.1rem;
-    width: 10rem;
+    width: 13rem;
     height: 15rem;
-    border: 6px solid transparent;
+    border: 1px solid transparent;
+    box-shadow: inset -100vw -100vh #555;
   }
 
   .cardItem:hover {
@@ -992,7 +993,7 @@ nav {
   }
 
   .cardItem p {
-    text-align: left;
+    text-align: center;
     width: 25%;
     font-size: 0.65rem;
     height: 100%;
