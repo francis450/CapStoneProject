@@ -24,7 +24,7 @@
 - [x] Communicate technical concepts to other technical people.
 
 ## Project Documentation
-- [x] Here is the loom video [link](https://www.loom.com/share/9a091ce6bb9e4dff851c2a5aaf09ac95)
+- [x] Here is the loom video [link](https://www.loom.com/share/26ac6ebb2ef34864b9418a55351cac8c)
 
 ## Design Mockup 📱 💻 🖥️
 ![Screen Shot 2022-05-30 at 21 04 26](https://user-images.githubusercontent.com/98527559/171028995-c3a99b54-5f1f-42f1-833d-17a8ed6be926.png)
