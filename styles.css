@@ -403,7 +403,6 @@ nav {
   margin-right: 1rem;
 }
 
-
 .mobileFooter img {
   max-width: 40%;
   max-height: 40%;
@@ -526,6 +525,7 @@ nav {
   opacity: 0.9;
   transform: scale(1.1);
 }
+
 .titleAbout {
   margin-top: 2.5rem;
   display: flex;
